@@ -14,7 +14,7 @@ RUN yum install python3 -y
 
 ADD pip.conf /root/.pip/
 
-RUN pip3 install django
+RUN pip3 install django==2.0.7
 
 WORKDIR /root/test
 
