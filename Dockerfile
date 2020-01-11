@@ -10,7 +10,7 @@ RUN yum makecache
 
 RUN yum update -y
 
-RUN yum install python3
+RUN yum install python3 -y
 
 ADD pip.conf /root/.pip/
 
