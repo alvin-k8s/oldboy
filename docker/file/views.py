@@ -8,6 +8,6 @@ def index(request):
     
     hostname = socket.gethostname()
     
-    return HttpResponse("主机名：" + hostname)
+    return HttpResponse("主机名：" + hostname + "，版本：v1")
 
 
